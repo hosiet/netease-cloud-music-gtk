@@ -1,0 +1,22 @@
+Source: netease-cloud-music-gtk
+Section: sound
+Priority: optional
+Maintainer: Boyuan Yang <byang@debian.org>
+Build-Depends:
+ debhelper-compat (= 12),
+ rustc,
+ dh-cargo,
+ cargo,
+Rules-Requires-Root: no
+Standards-Version: 4.3.0
+Homepage: https://github.com/gmg137/netease-cloud-music-gtk
+Vcs-Browser: https://salsa.debian.org/hosiet/flameshot
+Vcs-Git: https://salsa.debian.org/hosiet/flameshot.git
+
+Package: netease-cloud-music-gtk
+Architecture: any
+Depends:
+ ${misc:Depends},
+ ${shlibs:Depends},
+Description: Netease Cloud Music player based on Rust and GTK
+ Rust/GTK-based Netease Cloud Music player.
