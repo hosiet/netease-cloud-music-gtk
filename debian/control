@@ -18,5 +18,7 @@ Architecture: any
 Depends:
  ${misc:Depends},
  ${shlibs:Depends},
+Recommends:
+ osdlyrics,
 Description: Netease Cloud Music player based on Rust and GTK
  Rust/GTK-based Netease Cloud Music player.

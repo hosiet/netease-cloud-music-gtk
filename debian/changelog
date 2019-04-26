@@ -1,3 +1,11 @@
+netease-cloud-music-gtk (0.5+git20190426.1~deb10u1) buster; urgency=medium
+
+  * Rebuild for Debian Buster.
+  * debian/control: Add recommendation to osdlyrics.
+  * debian/copyright: Add a copyright file.
+
+ -- Boyuan Yang <byang@debian.org>  Fri, 26 Apr 2019 13:32:15 -0400
+
 netease-cloud-music-gtk (0.5+git20190426.0) unstable; urgency=medium
 
   * Initial release.
