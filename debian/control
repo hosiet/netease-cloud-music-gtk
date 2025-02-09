@@ -1,0 +1,34 @@
+Source: netease-cloud-music-gtk
+Section: sound
+Priority: optional
+Maintainer: Boyuan Yang <byang@debian.org>
+Build-Depends:
+ debhelper-compat (= 13),
+ rustc,
+ dh-cargo,
+ cargo,
+ meson,
+ libdbus-1-dev,
+ libgtk-4-dev,
+ libglib2.0-dev,
+ libgdk-pixbuf-2.0-dev,
+ libgio-2.0-dev,
+ libgstreamer-plugins-base1.0-dev,
+ libgstreamer-plugins-bad1.0-dev,
+ libssl-dev,
+ libgstreamer1.0-dev,
+ libadwaita-1-dev,
+ pkgconf,
+Rules-Requires-Root: no
+Standards-Version: 4.7.0
+Homepage: https://github.com/gmg137/netease-cloud-music-gtk
+
+Package: netease-cloud-music-gtk
+Architecture: any
+Depends:
+ ${misc:Depends},
+ ${shlibs:Depends},
+Recommends:
+ osdlyrics,
+Description: Netease Cloud Music player based on Rust and GTK
+ Rust/GTK-based Netease Cloud Music player.

@@ -1,0 +1,11 @@
+netease-cloud-music-gtk (2.5.0+debiancn0) unstable; urgency=medium
+
+  * New packaging for Debian Bookworm. 
+
+ -- Boyuan Yang <byang@debian.org>  Sun, 09 Feb 2025 11:54:50 -0500
+
+netease-cloud-music-gtk (0.5+git20190426.0) unstable; urgency=medium
+
+  * Initial release.
+
+ -- Boyuan Yang <byang@debian.org>  Fri, 26 Apr 2019 11:14:28 -0400
