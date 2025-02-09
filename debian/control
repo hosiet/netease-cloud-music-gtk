@@ -4,6 +4,7 @@ Priority: optional
 Maintainer: Boyuan Yang <byang@debian.org>
 Build-Depends:
  debhelper-compat (= 13),
+ desktop-file-utils,
  rustc,
  dh-cargo,
  cargo,
