@@ -1,3 +1,9 @@
+netease-cloud-music-gtk (2.5.2+debiancn0~deb13u1) trixie; urgency=medium
+
+  * New upstream release.
+
+ -- Boyuan Yang <byang@debian.org>  Sun, 11 May 2025 17:07:05 -0400
+
 netease-cloud-music-gtk (2.5.0+debiancn0~deb13u1) trixie; urgency=medium
 
   * New packaging for Debian Trixie.
